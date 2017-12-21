@@ -10,8 +10,8 @@ using namespace std;
 vector<string> new_users()
 {
     vector<string> users;
+    users.push_back("username");
     users.push_back("user");
-    users.push_back("Dmitriy");
  return users;
 }
 
@@ -21,7 +21,7 @@ int main()
 string name;
 
 vector<string> users = new_users();
-cout << "login: ";
+cout << "vvedite login: ";
     while(true)
     {
         getline(cin, name);
